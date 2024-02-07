@@ -313,6 +313,110 @@ Token Sale
   background: rgba(249, 183, 7, 0.9);
   opacity: 0;
 }
+/* CSS to set height and width */
+.equal-photo {
+  width: 200px; /* Set the width of the photo */
+  height: 200px; /* Set the height of the photo */
+  
+  padding-right: 20px;
+}
+.equal-photo1{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo2{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo3{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo4{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo5{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo6{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo7{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo8{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo9{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo10{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.equal-photo11{
+  width: 200px; /* Set the width of the photo */
+  height: 150px; /* Set the height of the photo */
+  padding-left: 20px;
+  padding-right: 20px;
+  
+
+}
+.owl-carousel .item img {
+  width: 200px; /* Set the width for all images */
+  height: 200px; /* Set the height for all images */
+  object-fit: cover; /* Preserve aspect ratio and cover the entire container */
+}
+
+
+
+
 .our-team { text-align: center; }
 .our-team .team-image { position: relative; margin: 0 auto; transition: all 0.5s ease 0s; }
 .our-team:hover .team-image { border-color: var(--iq-primary); }
