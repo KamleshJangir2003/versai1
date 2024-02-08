@@ -1,0 +1,24 @@
+/* Add this CSS to your stylesheet */
+.blogpost {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensure equal spacing between items */
+}
+
+.blogpost .item {
+    flex-basis: calc(33.333% - 30px); /* Adjust the width as needed */
+    margin-bottom: 30px;
+}
+
+/* Adjust margins for smaller screens */
+@media (max-width: 992px) {
+    .blogpost .item {
+        flex-basis: calc(50% - 30px); /* Two items per row on smaller screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .blogpost .item {
+        flex-basis: calc(100% - 30px); /* One item per row on extra small screens */
+    }
+}
