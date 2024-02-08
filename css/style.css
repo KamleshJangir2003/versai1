@@ -172,6 +172,35 @@ header.menu-sticky { position: fixed; background: var(--iq-light); padding: 10px
 .iq-banner-3:before { position: absolute; top: 0%; left: 0%; content: ""; width: 100%;  height: 100%; display: inline-block; background-image: url('../images/02.jpg'); }
 .iq-banner-3 .ico-img { margin-top: 10px; bottom: -45px; right: -60px; width: 95%; }
 
+
+
+
+/*-------------------------------------------------
+video style -------------------------------------------*/
+
+
+/* Add this CSS to your stylesheet */
+#ico {
+  padding-top: 100px; /* Adjust as needed */
+  padding-bottom: 100px; /* Adjust as needed */
+}
+
+#ico .embed-responsive {
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+#ico .embed-responsive .embed-responsive-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
 /*---------------------------------------------------------------------
                               Clients
 ---------------------------------------------------------------------*/
