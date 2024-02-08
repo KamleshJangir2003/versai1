@@ -95,7 +95,7 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 ---------------------------------------------------------------------*/
 header { padding: 20px 80px; position: absolute; display: inline-block; top: 0; left: 0; width: 100%; -webkit-transition: all 250ms ease-in-out 0s; -moz-transition: all 250ms ease-in-out 0s; -ms-transition: all 250ms ease-in-out 0s; -o-transition: all 250ms ease-in-out 0s; transition: all 250ms ease-in-out 0s; z-index: 99; }
 header .navbar { padding: 0; }
-header .navbar-brand img { max-width: 80px; }
+header .navbar-brand img { max-width: 70px; }
 header .navbar-light .nav-item { margin: 0 10px; }
 header .navbar-light .nav-item .nav-link { color: var(--white); font-size: 16px; line-height: normal; position: relative; -webkit-transition: all 250ms ease-in-out 0s; -moz-transition: all 250ms ease-in-out 0s; -ms-transition: all 250ms ease-in-out 0s; -o-transition: all 250ms ease-in-out 0s; transition: all 250ms ease-in-out 0s; }
 header .navbar-light .navbar-nav .nav-link:before { content: ""; display: inline-block; position: absolute; bottom: -3px; left: 50%; margin-left: -3px; background: var(--iq-primary); height: 6px; width: 6px; border-radius: 90px; opacity: 0; -webkit-transition: all 250ms ease-in-out 0s; -moz-transition: all 250ms ease-in-out 0s; -ms-transition: all 250ms ease-in-out 0s; -o-transition: all 250ms ease-in-out 0s; transition: all 250ms ease-in-out 0s; }
@@ -124,7 +124,7 @@ header.menu-sticky { position: fixed; background: var(--iq-light); padding: 10px
                               Banner
 ---------------------------------------------------------------------*/
 .iq-banner { position: relative; padding: 11% 0 6%; z-index: -1; }
-.iq-banner:before { position: absolute; top: 0%; left: 0%; content: ""; width: 100%; z-index: 999; height: 100%; display: inline-block; background-image: url('../images/01.png'); }
+.iq-banner:before { position: absolute; top: 0%; left: 0%; content: ""; width: 100%; z-index: 999; height: 100%; display: inline-block; background-image: url('../images/03.png'); opacity: 0.3; }
 .banner-info { position: relative; z-index: 999; }
 .iq-banner .iq-countdown { background: var(--iq-light); border-radius: 30px; padding: 40px 40px; position: relative; }
 .iq-banner .wave-poistion { position: absolute; top: 0; left: 0; z-index: 99; }
