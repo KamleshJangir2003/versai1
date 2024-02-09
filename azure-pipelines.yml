@@ -1,0 +1,19 @@
+trigger:
+  branches:
+    include:
+      - main  # Trigger the pipeline on commits to the master branch
+
+pool:
+  vmImage: 'ubuntu-latest'  # Use the latest Ubuntu VM image
+
+steps:
+- task: CopyFiles@2
+  inputs:
+    SourceFolder: '$(Build.SourcesDirectory)'  # Source folder containing your static site
+    Contents: '**'  # Copy all files from the source folder
+    TargetFolder: '$(Build.ArtifactStagingDirectory)'  # Copy files to the artifact staging directory
+
+- task: PublishPipelineArtifact@1
+  inputs:
+    artifactName: 'yuva-bitcoin'  # Name your artifact
+    targetPath: '$(Build.ArtifactStagingDirectory)'  # Path to publish the artifact from
